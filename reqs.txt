@@ -1,3 +1,6 @@
 cherrypy>=17.0.0
 fitbit>=0.3.0
 pandas>=0.23.3
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
